@@ -1,7 +1,7 @@
+// 원본 fetch 함수
 async function fetchPost() {
   const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
-  const data = response.json();
-  return data;
+  return response.json();
 }
 
 export function fetchProfileData() {
